@@ -1,0 +1,33 @@
+<!-- edit-product-modal.hbs -->
+<div class="modal fade" id="editProductModal" tabindex="-1" aria-labelledby="editProductModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="editProductModalLabel">Editar Producto</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        <form id="editProductForm">
+          <input type="hidden" id="editProductId" name="id">
+          <div class="mb-3">
+            <label for="editNombre" class="form-label">Nombre</label>
+            <input type="text" class="form-control" id="editNombre" name="nombre" required>
+          </div>
+          <div class="mb-3">
+            <label for="editDescripcion" class="form-label">Descripcion</label>
+            <input type="text" class="form-control" id="editDescripcion" name="descripcion" required>
+          </div>
+          <div class="mb-3">
+            <label for="editPrecio" class="form-label">Precio</label>
+            <input type="number" class="form-control" id="editPrecio" name="precio" required>
+          </div>
+          <div class="mb-3">
+            <label for="editAñoLanzamiento" class="form-label">Año de lanzamiento</label>
+            <input type="text" class="form-control" id="editAñoLanzamiento" name="año_lanzamiento" required>
+          </div>
+          <button type="submit" class="btn btn-primary">Guardar Cambios</button>
+        </form>
+      </div>
+    </div>
+  </div>
+</div>

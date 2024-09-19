@@ -1,0 +1,49 @@
+{
+    "usuarios": [
+      {
+        "Id": 1,
+        "nombre": "Juan",
+        "apellido": "Pérez",
+        "direccion": "Calle Falsa 123",
+        "telefono": "555-1234",
+        "email": "juan.perez@example.com",
+        "contraseña": "pass1234",
+        "id_rol": 2
+      },
+      {
+        "Id": 2,
+        "nombre": "Ana",
+        "apellido": "García",
+        "direccion": "Avenida Siempre Viva 742",
+        "telefono": "555-5678",
+        "email": "ana.garcia@example.com",
+        "contraseña": "ana5678",
+        "id_rol": 1
+      }
+    ],
+    "productos": [
+      {
+        "Id": 1,
+        "nombre": "Album Clásico 1",
+        "descripcion": "Un álbum clásico de los años 80",
+        "precio": 29.99,
+        "año_lanzamiento": 1980,
+        "stock": 15,
+        "id_genero": 1,
+        "artista": "The Classics",
+        "id_administrador": 1
+      },
+      {
+        "Id": 2,
+        "nombre": "Vinilo Moderno",
+        "descripcion": "Un vinilo de música electrónica moderna",
+        "precio": 34.99,
+        "año_lanzamiento": 2020,
+        "stock": 30,
+        "id_genero": 2,
+        "artista": "Modern Beats",
+        "id_administrador": 2
+      }
+    ]
+  }
+  
